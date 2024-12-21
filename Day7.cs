@@ -1,9 +1,5 @@
-﻿class Day7 : Day
+﻿class Day7(string filename = "Day7.txt") : Day(filename)
 {
-    public Day7(string filename = "Day7.txt") : base(filename)
-    {
-    }
-
     internal string SolveA()
     {
         List<CalibrationEquatuion> solvable = new List<CalibrationEquatuion>();
